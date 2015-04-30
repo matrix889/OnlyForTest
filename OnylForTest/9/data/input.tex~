@@ -1,0 +1,6 @@
+The first line contains an integer $n$ ($2 \leq n \leq 105$), the number of cubes.
+
+Next $n$ lines contain the descriptions of the cubes, one description per line.\\
+A cube description consists of two space-separated integers $c_i$ and $s_i$ ($1 \leq c_i, s_i \leq 109$) --- the i-th cube's color and size, correspondingly.
+
+It is guaranteed that there are at least two cubes of different colors.

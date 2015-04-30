@@ -1,0 +1,6 @@
+Jeflie has a \enquote{to read} list, recording the books he intend to read. He is a poor guy, and he wants to read all these books without buying all of them.
+
+Luckily, he can exchange a new book with an old one he finished.\\
+There have n books, each one have two properties (level, value). If Jeflie buys $book[i]$, it costs $level[i]*value[i]$. In another way, he can exchange the book[j] by his book[i] only if the $level[i]$ is a divisor of $level[j]$, and it costs $level[j]/level[i] * value[i]$. 
+
+Obviously, there exists a best way to read all of the books but cost minimum. Can you help the poor guy to calculate the minimum cost?

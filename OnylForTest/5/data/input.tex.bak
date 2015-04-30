@@ -1,0 +1,9 @@
+The first line is a positive integer T(1<=T<=2), which represents the number of case. The next T blocks follow each indicates a case.
+Each case starts with two integers n and m.
+In the next n lines, the ith line contains a string si.
+In the next line, contains n integers. The ith integer indicates vi.
+In next m lines, each line contains a operation, There are three kinds of operation whose means is shown in description.
+
+Please note that some operation of input are encrypted. If the last operation Q print last_ans(you can assume that last_ans is equal to 0 in the beginning), all a' in operation Cs must add last_ans('a¡¯~'e' circulation).
+For example, if last_ans is 1, the operation is "Cs 1 abcde". You must translate it into "Cs bcdea".
+For 100% of cases, n <= 50000, m <= 100000, sum of the length of si and a` <= 1000000.

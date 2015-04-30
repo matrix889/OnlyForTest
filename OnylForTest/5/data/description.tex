@@ -1,0 +1,9 @@
+You are given $n$ string $s_{1},s_{2}, \cdots , s_{n}$, which only contain 'a' $\cdots$ 'e'. String $s_{i}$ has a value $v_{i}$. There are three kinds of operation:\\
+1.Cv $x$ $v'$: change $v_{x}$ into $v'$\\
+2.Cs $x$ $a'$: change $s_{x}$ into $a'$\\
+3.Q: calculate $ans = \max{\sum_{x=1}^{pn}s_{p_{x}}}$, satisfying that $s_{p_{x}}$ is a prefix of $s_{p_{x+1}}$($1 \leq i < n$).
+Please note that $pn \leq n$, $1 \leq p_{i} \leq n$ and $p_{i} \neq p_{j}(i \neq j)$
+
+String $a=a_{1}a_{2} \cdots a_{an}$ is a prefix of $b=b_{1}b_{2} \cdots b_{bn}$ if and only if $an$ <= $bn$ and $a_{i}=b_{i}$($1 \leq i \leq an$).
+
+\textbf{The memory limit of this problem is 64MB}

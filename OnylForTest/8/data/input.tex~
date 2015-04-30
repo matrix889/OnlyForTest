@@ -1,0 +1,5 @@
+The input consists of multiple cases, and there’re less than 100 cases.
+
+Each case begins with the number $n$ ($0 < n < 6$), and the length of password $L$ ($0 < L < 1,000,000,000$). Then following $n$ lines will be the lucky numbers, each per line.\\ It’s guarantee that the length of every number won’t exceed 5. Every number will be different from the others.
+
+There’s always a blank line after each input case.

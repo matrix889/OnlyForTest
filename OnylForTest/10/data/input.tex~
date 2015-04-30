@@ -1,0 +1,5 @@
+The input consists of T test cases. The number of test cases T is given in the first line of the
+input. Each test case begins with a line containing an integer N , 1<=N<=500000 , that
+represents the number of integers in the array. Each of the following N integers that belong to
+the array.
+

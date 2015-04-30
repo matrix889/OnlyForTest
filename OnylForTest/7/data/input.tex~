@@ -1,0 +1,4 @@
+The input contains several test cases.
+
+The first line of the input is a single integer $T$ which is the number of test cases.Then $T$ test cases follow.\\
+Each test case contains a single positive integer n(2<=n<=1,000).

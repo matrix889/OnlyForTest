@@ -1,0 +1,5 @@
+One day, Bob draws $n$ points on a paper. It is guaranteed that he does not draw three points on a straight line. 
+
+Now, he wants you to choose four points to construct a concave quadrangle. Bob thinks that two concave quadrangles are the same if they have the same points.
+Can you tell him how many different concave quadrangles you can construct?
+

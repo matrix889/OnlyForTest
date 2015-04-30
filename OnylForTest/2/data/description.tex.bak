@@ -1,0 +1,6 @@
+Give you a sequence .
+You can split a integer  in two pairs, but one integer should be splited only once and each pair of it must be greater than 0. For example, you can split 3 into (1 | 2), but you can¡¯t split it into (1 | 1 | 1) or (0 | 3). Spliting an integer x cost x unit of money.
+After all you split operator, all the adjacent integer will add into one integer and become a new sequence b. If one integer splited into two pairs, they are considered non-adjacent.
+For example, sequence 7 3 5 2. We split 3 and 2, cost 5 unit of money.
+And it become 7 1 | 2 5 1 | 2, and then become sequence b : 8 8 2.
+If the maximun integer of b must be smaller than or equal to a given integer M, what¡¯s the minimun cost? If it¡¯s no vaild solution, output -1 as the answer. 

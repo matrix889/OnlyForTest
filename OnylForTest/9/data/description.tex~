@@ -1,0 +1,11 @@
+Princess Lucy is a smart and beautiful girl. Always around her,there will be a lot of suitors, what makes her such upset. She likes playing with cubes so much. Actually, she likes to play with anything whatsoever, cubes or tesseracts, as long as they are multicolored. 
+
+Recently, she has a problem about the cubes, so she wants to use this question to test those suitors and deter them. She thinks her Prince Charming should be smarter than her, so who can solve this problem best and fastest have the chance to get her interview.
+
+This problem is that each cube is described by two parameters: color $c_i$ and size $s_i$. A Zebra Tower is a tower that consists of cubes of exactly two colors.\\
+Besides, the colors of the cubes in the tower must alternate (colors of adjacent cubes must differ). And the Zebra Tower should have at least two cubes.There are no other limitations.
+
+A Zebra Tower's height is the sum of sizes of all cubes that form the tower. What you shoule do is building the Zebra Tower of the maximum possible height, using the available cubes.
+
+Can you solve this problem best and fastest then get Princess Lucy’s interview?\\
+Please be programmed to achieve.

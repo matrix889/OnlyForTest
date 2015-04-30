@@ -1,0 +1,6 @@
+The first line is a postive integer T(1¡ÜT¡Ü20), which represents the number of case. The next T blocks follow each indicates a case.
+Each case starts with four integers N, M, W and H.
+The next line contains a integer K.
+In the next K lines, each line contains two postive integers x, y indicates a broken cell`s coordinate (x,y). Two broken cells may have same coordinate.
+For 80% of cases, 0£¼N, M, W, H¡Ü1000
+For 100% of cases, 0£¼N, M, W, H¡Ü50000, 0¡ÜK¡Ü50000, 0£¼x¡ÜN£¬0£¼y¡ÜM.

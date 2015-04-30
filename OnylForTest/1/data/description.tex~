@@ -1,0 +1,14 @@
+A number sequence is defined as follows:\\
+$f(1) = f(2) = f(3) = 1$,\\
+$f(t) = (a * f(t-1) + b * f(t-2) + c * f(t-3)) \mod{11}$ ($t > 3$).
+
+For any positive integer k, a is the number of zeros at the end of the decimal form of number $k!$.\\
+For example, $k = 4$ $\rightarrow$ $k! = 24$ $\rightarrow$ $a = 0$.
+
+For any positive integer $p$, $g(t) = 2^{t}\mod10^{p} (t \gwq 1)$. $b$ is the number of binary digital of the cycle of the sequence g.\\
+For example, $p = 1$ $\rightarrow$ $g: 2, 4, 8, 6, 2, 4, 8, 6...$ $\rightarrow$ $4$ $\rightarrow$ $100$ $\rightarrow$ $b = 3$.
+
+For any positive integer $m$, $h(m) = 1 * 2 * 3 + 2 * 3 * 4 + ... + m * (m+1) * (m+2)$, $c$ is the value of $h(m) \mod 2013$.\\
+For example, $m = 1$ $\rightarrow$ $h(m) = 6$ $\rightarrow$ $c = 6$.
+
+Given $k$, $p$, $m$ and $n$, you are to calculate the value of $a$, $b$, $c$ and $f(n)$.

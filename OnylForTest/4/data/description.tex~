@@ -1,0 +1,10 @@
+As we know, qzhouayi likes PK with other acmers.\\
+One day, he took a walk in school and wanted to find acmers to PK. Unfortunately, he could not find any acmer on the road. So he was very upset and went back to dormitory ac alone. \\
+The next day, he decided to try it again. This time, he thought out a perfect plan——estimate the number of acmers in each road and find a route which has the most acmers. He was confident of his plan and got up very early.
+
+He divided the school into n areas, from 0 to $n-1$, and there is a road between any two areas. He wanted to find such a route $a1,a2,a3 \ldots ak$:\\
+1) $a1=0$, $ak=n-1$.\\
+2) $a1 < a2 < a3 < \ldots < ak$.\\
+3) $f(i,j)$ means the total number of acmers on $road(i,j)$, $f(a1,a2) + f(a2, a3) + \ldots + f(a{k-1}, ak)$ is the maximum one.
+
+Please help this poor guy calculate the best route.

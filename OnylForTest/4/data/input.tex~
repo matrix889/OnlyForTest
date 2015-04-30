@@ -1,0 +1,5 @@
+The input file contains several cases.
+
+For each case, the first line contains two integers $n$ and $m$ ($1 \leq n \leq 10, 000,  0 \leq m \leq 300, 000$), representing the number of areas and the roads which have acmers.\\
+The following $m$ lines contain three numbers $x,y,z$ ($0 \leq x, y < n, x \neq y, 0 < z \leq 1,000$) represent there are z acmers on road(x,y).\\
+It is guaranteed that $road(i,j)$ and $road(j,i)$ can not appear at the same time. n=m=0 indicates the end of input.

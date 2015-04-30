@@ -1,0 +1,4 @@
+The input file will contain one or more test cases.
+
+For each test case, the first line contain an integer $n$ ($4 \leq n \leq 1,000$), indicating the number of points.
+Each of the next $n$ lines contains two integers $x$ and $y$ ($-1,000,000 \leq x, y \leq 1,000,000$), indicating the coordinate of corresponding point.

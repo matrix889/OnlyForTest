@@ -1,0 +1,5 @@
+The first line is a number T(1¡ÜT¡Ü20), represents the number of case. The next T blocks follow each indicates a case.
+Each case starts with a postive integer N and K.
+In the next line, contians N integers ¡£
+For 80% of cases, N¡Ü1000,-1000¡Ü¡Ü1000
+For 100% of cases, N¡Ü50000, 1¡ÜK¡ÜN(N-1)/2, -10000¡Ü¡Ü10000

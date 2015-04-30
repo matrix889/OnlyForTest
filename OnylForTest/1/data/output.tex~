@@ -1,0 +1,5 @@
+For each test case, you should output two lines.
+
+The first line is ''Case \#:'', \# means the number of the test case.The second line contains four integers, the value of $a$, $b$, $c$ and $f(n)$.
+
+Output a blank line between two cases.

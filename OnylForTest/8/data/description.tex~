@@ -1,0 +1,12 @@
+BandBandRock is quite sensitive with numbers (a number is defined as a sequence formed by `0'-`9'). He thinks this list of lucky numbers can bring him luck (for example his lucky list could be 9, 13) and he loves these numbers very much!  
+
+One day, BandBandRock is choosing a password for his bank account (a password is a sequence formed by `0'-`9'). He always forms his password with at least one of those lucky numbers as substrings. For example, if the password’s length is set as 3, ‘913’and ’113’ are both available options but ‘123’ is not. 
+
+After choosing a password, BandBandRock is worrying about the security of his account. If a hacker realizes his habit and know his number list, he might make some guess and find out BandBandRock's password!
+
+In order to evaluate how secure his account is, BandBandRock wants to know the amount of possibility of his password. \\
+For example, if the password can be 2 digits at most, there’re 21 possibilities as follow:\\
+(1 possibility) 9	\\				
+(10 possibilities) 90, 92 \ldots 99	\\
+(9 possibilities) 09, 19 \ldots 89	\\
+(1 possibility) 13	

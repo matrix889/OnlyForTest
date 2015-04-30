@@ -1,0 +1,5 @@
+At the beginning of learning programming, your teacher must teach you how to sort an array via insertion sort. Then, let’s sort an array as ascending order with a operation described below:\\
+Operation: As one time, you can select one element and insert it to the position whatever you want.
+
+Could you tell me the minimum number of operations to finish sorting.
+

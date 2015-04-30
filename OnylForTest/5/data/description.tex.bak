@@ -1,0 +1,6 @@
+You are given n string s1、s2、……、sn，which only contain 'a’~'e'. String si has a value vi. There are three kinds of operation:
+1.Cv x v': change vi into v'
+2.Cs x a': change si into a'
+3.Q: calculate ans = max{0, sum{sp1, sp2, ..., spn}}, satisfying that spi is a prefix of spi+1(1<=i<n).
+String a=a1a2..aan is a prefix of b=b1b2..bbn if and only if an <= bn and ai=bi(1<=i<=an).
+本题内存限制为64MB。

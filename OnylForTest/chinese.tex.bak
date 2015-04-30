@@ -1,0 +1,62 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+%引入需要的宏包
+%\usepackage{pdfpages}
+\usepackage{import}
+\usepackage[english]{babel}
+\usepackage{olymp}
+\usepackage[dvips]{graphicx}
+\usepackage{subfig}
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+%\usepackage{color}
+%\usepackage{colortbl}
+%\usepackage{expdlist}
+%\usepackage{mfpic}
+%\usepackage{comment}
+\usepackage{multirow}
+\usepackage{csquotes}
+
+
+
+\renewcommand{\contestname}{
+	\input contestname.tex
+}
+
+% Copied from 'amstex.tex' \bmod declaration
+\def\bdiv{\mskip-\medmuskip\mkern5mu\mathbin{\mathrm{div}}\mkern5mu\mskip-\medmuskip}
+% End of copied text
+
+\renewcommand{\t}{\texttt}
+
+\begin{document}
+
+%\includepdfmerge{fengmian.pdf, 1}
+\includegraphics[width=\textwidth]{icpc.jpg}
+\\
+\\
+\\
+\\
+\\
+\\
+
+\begin{center}
+\LARGE{\textbf{\input contestname.tex}}
+\end{center}
+
+\mbox{}\newpage\mbox{}\newpage
+
+%根据需要注释掉部分题目
+\subimport{1/}{problem}
+\subimport{2/}{problem}
+\subimport{3/}{problem}
+\subimport{4/}{problem}
+\subimport{5/}{problem}
+\subimport{6/}{problem}
+\subimport{7/}{problem}
+\subimport{8/}{problem}
+\subimport{9/}{problem}
+\subimport{10/}{problem}
+%\subimport{11/}{problem}
+
+\end{document}

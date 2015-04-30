@@ -1,0 +1,6 @@
+You are given a tree with n vertices, each edge of it has a length(positive integer less than $10^{9}$). The n vertices is numbered from 1 to n. We will assume that root of tree always is 1.
+
+We define $dist(u)$ as the min distance between node u and root.\\
+Given an integer $k$, a pair $(u,v)$ of vertices is called valid if and only if $dist(u) +dist(v) \geq k$ ($1 \leq u,v \leq n$, $u \neq v$, $k \leq 10^{9}$).
+
+Write a program to count how many pairs are valid for a given tree. Noting that we think pair $(u,v)$ is the same as pair $(v,u)$ , so just count once.  

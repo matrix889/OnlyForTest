@@ -1,0 +1,41 @@
+\documentclass[12pt,a4paper,oneside]{article}
+\usepackage{fontspec}  % XeLaTeX相关字体字库
+\usepackage[english]{babel}
+\usepackage{olymp}
+\usepackage[dvips]{graphicx}
+\usepackage{subfig}
+%\usepackage{color}
+%\usepackage{colortbl}
+%\usepackage{expdlist}
+%\usepackage{mfpic}
+%\usepackage{comment}
+\usepackage{multirow}
+\newfontfamily\song{SimSun}
+
+\renewcommand{\contestname}{
+\song \input contestname.tex
+}
+
+% Copied from 'amstex.tex' \bmod declaration
+\def\bdiv{\mskip-\medmuskip\mkern5mu\mathbin{\mathrm{div}}\mkern5mu\mskip-\medmuskip}
+% End of copied text
+
+\renewcommand{\t}{\texttt}
+
+\begin{document}
+
+%\input prob/adinner.tex
+%\input prob/bit.tex
+%\input prob/counting.tex
+%\input prob/divide.tex
+%\input prob/easy.tex
+%\input prob/folding.tex
+%\input prob/graph.tex
+%\input prob/harue.tex
+%\input prob/invasion.tex
+%\input prob/journey.tex
+%\input prob/king.tex
+
+\input content.tex
+
+\end{document}

@@ -1,0 +1,4 @@
+You are given a string s with N lower case letters. The index of s starts with 0.
+Your task is to deal with M operations of 2 types:
+1. Given an integer p and a lower case letter q, you should change the pth character of the string s to q.
+2. Given a lower case letter q, you should print the number of q in string s.

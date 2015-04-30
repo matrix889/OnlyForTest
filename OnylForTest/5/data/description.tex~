@@ -1,0 +1,21 @@
+Interviewer:\enquote{Given a string, please convert it to an integer.}
+
+ZHJ:\enquote{Is it 10-based?}
+
+Interviewer:\enquote{Yes.}
+
+ZHJ:\enquote{Are there leading zeros?}
+
+Interviewer:\enquote{That is possible.}
+
+ZHJ:\enquote{Does the string contain spaces?}
+
+Interviewer:\enquote{That is possible.And the spaces should be skipped.}
+
+ZHJ:\enquote{Is there any other characters in the string besides digits and spaces?}
+
+Interviewer:\enquote{+ or - may be contained.+ and - will appear before the digits.}
+
+ZHJ:\enquote{Are there more than one +'s or -'s?}
+
+Interviewer:\enquote{Of course that is possible!!!You idiot!!!}

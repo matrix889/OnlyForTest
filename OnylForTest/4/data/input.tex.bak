@@ -1,0 +1,8 @@
+The first line is a postive integer T(1<=T<=20), which represents the number of case. The next T blocks follow each indicates a case.
+Each case starts with a string s.
+In next line contains an integer M.
+In next M lines, each line begin with an integer op(1<=op<=2).
+If op = 1, there are an integer p and a lower case letter q after op, means that you should change the pth character of s to q.
+If op = 2, there is a lower case letter q after op, means that you should print the number of q in string s.
+For 70% of cases, the length of s <= 1000, M<=1000.
+For 100% of cases, the length of s <= 100000, s only contains lower case letter, 0<=M<=100000, 0<=p<N, q must be lower-case letter.

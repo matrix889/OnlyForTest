@@ -1,0 +1,3 @@
+The first line is a integer T(1¡ÜT¡Ü100), represents the number of case. The next T blocks follow each indicates a case.
+Each case contains a line with three positive integers a, b, k.
+For 100% of cases, 1¡Üa,b,k¡Ü1000000000

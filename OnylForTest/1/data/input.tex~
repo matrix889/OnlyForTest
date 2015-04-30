@@ -1,0 +1,3 @@
+The first line of the input contains an integer $T(1 \leq T \leq 20)$ which means the number of test cases.
+
+Then $T$ lines follow, each line contains 4 integers $k$, $p$, $m$ and $n$ on a single line (1 <= $k$, $p$, $m$, $n$ <= 100,000,000).

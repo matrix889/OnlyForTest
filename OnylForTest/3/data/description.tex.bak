@@ -1,0 +1,3 @@
+Give you a sequence .
+We define
+If we put all of sum(i,j) in a sequence B with  elements and sort them from small to large. Now give you a postive integer K. Can you tell me the Kth sum(i,j) in B? 

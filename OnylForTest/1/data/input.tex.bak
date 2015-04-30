@@ -1,0 +1,6 @@
+The first line is a positive integer T(1¡ÜT¡Ü20), represents the number of case. The next T blocks follow each indicates a case.
+Each case starts with two positive integers N and M, which indicates the number of boys and girls respectively. Boys are numbered from 1 to N. Girls are numbered from 1 to M.
+In the next line, contains N positive integers c, the i-th integer indicates the money that the boy with number i will give to Great Master if he can fall in love with a girl.
+In next N lines, each line contains M integers, which is 0 or 1. If the number of the j-th integer in i-th line is 1, it means the boy i can fall in love with girl j. Otherwise, they will never go together.
+For 80% of cases, 0£¼N,M¡Ü100.
+For 100% of cases, 0£¼N,M¡Ü300, c¡Ü100000.

@@ -1,0 +1,5 @@
+The first line is a positive integer T(T¡Ü20), represents the number of case. The next T blocks follow each indicates a case.
+Each case starts with a positive integer n.
+In the next line, there are n integers. The i-th number mean ai.
+For 80% of cases, n¡Ü1000.
+For 100% of cases, n¡Ü100000, -1000000000¡Üai¡Ü1000000000.

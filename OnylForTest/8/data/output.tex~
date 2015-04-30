@@ -1,0 +1,2 @@
+For each case, you should output the answer in a line, which means the amount of the possibility.\\
+As the answer may be so large, you should output the answer mod 1000000007().

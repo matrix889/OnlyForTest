@@ -1,0 +1,11 @@
+The first line is a positive integer $T$($T \leq 2$), which represents the number of cases. The next $T$ blocks follow each indicates a case.
+
+Each case starts with two positive integers $n$ and $m$.\\
+In the next $n$ lines, the $i^{th}$ line contains a string $s_{i}$.\\
+In the next line, contains $n$ integers. The $i^{th}$ integer indicates $v_{i}$.\\
+In next $m$ lines, each line contains a operation. There are three kinds of operation whose means is shown in description.
+
+Please note that some operation of input are encrypted. If the last operation $Q$ print $last$-$ans$(you can assume that $last$-$ans$ is equal to 0 in the beginning), all $a'$ in operation $Cs$ must add $last$-$ans$(from 'a' to 'e' circulation).\\
+For example, the operation is "Cs 1 abcde". If $last$-$ans$ is 1, You must translate it into "Cs 1 bcdea". If $last$-$ans$ is 2, You must translate it into "Cs 1 cdeab".
+
+For 100\% of cases, $n \leq 50000$, $m \leq 100000$, $0 \leq v_{i} < 100000$, $\sum s_{i} + \sum a' \leq 1000000$.

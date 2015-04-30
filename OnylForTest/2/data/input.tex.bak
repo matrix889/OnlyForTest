@@ -1,0 +1,5 @@
+The first line is a postive integer T(T¡Ü20), represents the number of case. The next T blocks follow each indicates a case.
+Each case starts with two postive integers n and M.
+In the next line contains n postive integers means the sequence of a.
+For 80% of cases, n¡Ü100 and ¡Ü100.
+For 100% of cases, n¡Ü1000 and ¡Ü1000, M¡Ü1000000000.
